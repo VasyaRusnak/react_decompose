@@ -1,7 +1,7 @@
 import './Article.css';
 import React from 'react';
 
- const Article = () => (
+export const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
@@ -59,4 +59,5 @@ import React from 'react';
     </p>
   </article>
 );
+
 export default Article;

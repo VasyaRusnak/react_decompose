@@ -1,7 +1,7 @@
 import './Header.css';
 import React from 'react';
 
- const Header = () => (
+export const Header = () => (
   <header className="header">
     <h1 className="header__title">Site Name</h1>
     <nav className="navigation">
@@ -17,4 +17,5 @@ import React from 'react';
     </nav>
   </header>
 );
+
 export default Header;
